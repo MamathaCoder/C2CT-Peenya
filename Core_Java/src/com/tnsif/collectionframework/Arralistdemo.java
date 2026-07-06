@@ -1,11 +1,11 @@
 package com.tnsif.collectionframework;
 
-mport java.util.ArrayList;
+import java.util.ArrayList;
 
 //demo for arraylist
 public class Arralistdemo {
      public static void main(String[] args) {
-             ArrayList al=new ArrayList();
+             ArrayList<Comparable> al=new ArrayList<Comparable>();
              
              al.add(2);
              al.add("banana");
